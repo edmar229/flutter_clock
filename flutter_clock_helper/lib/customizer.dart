@@ -175,7 +175,7 @@ class _ClockCustomizerState extends State<ClockCustomizer> {
   Widget build(BuildContext context) {
     final clock = Container(
       child: widget._clock(_model),
-    ),
+    );
 
     return MaterialApp(
       theme: ThemeData.light(),
