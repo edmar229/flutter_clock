@@ -175,7 +175,7 @@ class _ClockCustomizerState extends State<ClockCustomizer> {
   Widget build(BuildContext context) {
     final clock = Center(
       child: AspectRatio(
-        aspectRatio: 9 / 16,
+        aspectRatio: 1,
         child: Container(
           child: widget._clock(_model),
         ),
