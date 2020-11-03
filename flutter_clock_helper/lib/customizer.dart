@@ -173,14 +173,9 @@ class _ClockCustomizerState extends State<ClockCustomizer> {
 
   @override
   Widget build(BuildContext context) {
-    final clock = Center(
-      child: AspectRatio(
-        aspectRatio: 1,
-        child: Container(
-          child: widget._clock(_model),
-        ),
-      ),
-    );
+    final clock = Container(
+      child: widget._clock(_model),
+    ),
 
     return MaterialApp(
       theme: ThemeData.light(),
